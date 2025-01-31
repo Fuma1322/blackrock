@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>BlackRock</h1>
+        <h1 className="text-red-500 text-7xl">BlackRock</h1>
       </div>
     </>
   )
