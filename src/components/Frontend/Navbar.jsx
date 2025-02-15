@@ -7,15 +7,15 @@ export default function Navbar() {
 
     const navigation = [
         { title: "Home", path: "/" },
+        { title: "Menu", path: "/menu" },
         { title: "About Us", path: "/about" },
-        { title: "Pages", path: "/pages" },
     ];
 
     return (
         <nav className="bg-[#800000] fixed top-0 left-0 w-full z-50 shadow-md">
             <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
-                <div className="flex items-center justify-between py-3 md:py-5 w-full">
-                    <h2 className="font-bold text-xl text-white">Agrivista Farms</h2>
+                <div className="flex items-center justify-between py-2 md:py-5 w-full">
+                    <h2 className="font-bold text-xl text-white">BlackRock Butchery</h2>
                     <div className="md:hidden">
                         <button className="text-white hover:text-gray-200"
                             onClick={() => setState(!state)}
@@ -35,8 +35,8 @@ export default function Navbar() {
                 <div className={`flex-1 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
                     <ul className="flex flex-col md:flex-row md:items-center md:justify-end md:gap-x-12">
                         {navigation.map((item, idx) => (
-                            <li key={idx} className="text-white font-semibold hover:text-gray-300">
-                                <a href={item.path} className="block py-2 px-6">
+                            <li key={idx} className="min-w-max text-white font-semibold hover:text-gray-300">
+                                <a href={item.path} className="block py-2 px-4">
                                     {item.title}
                                 </a>
                             </li>
