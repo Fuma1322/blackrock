@@ -12,7 +12,7 @@ export function ImagesSliderDemo() {
     ];
     
     return (
-      <ImagesSlider className="h-screen w-full" images={images}>
+      <ImagesSlider className="h-[42rem] w-full" images={images}>
         <motion.div
           initial={{ opacity: 0, y: -80 }}
           animate={{ opacity: 1, y: 0 }}
