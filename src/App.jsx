@@ -1,13 +1,22 @@
-import './App.css'
-import Hero from './components/Frontend/Hero'
-import Navbar from './components/Frontend/Navbar'
+import { Carousel } from './components/Carousel'
+import Footer from './components/Footer'
+import Hero from './components/Hero'
+import Header from './components/Navbar'
+import MainLayout from './layout/MainLayout'
+import React from 'react'
 
-function App() {
+function App() { 
 
   return (
     <>
-      <Navbar />
-      <Hero/>
+        
+        <Header />
+        <MainLayout>
+          <Carousel />
+          {/* <Hero /> */}
+        </MainLayout>
+        <Footer />
+     
     </>
   )
 }
