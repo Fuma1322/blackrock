@@ -1,21 +1,27 @@
-import { Carousel } from './components/Carousel'
 import Footer from './components/Footer'
-import Hero from './components/Hero'
 import Header from './components/Navbar'
+import About from './components/About'
+import Contact from './components/Contact'
+import Menu from './components/Menu'
+import Home from './components/Home'
 import MainLayout from './layout/MainLayout'
+import {Routes, Route} from 'react-router-dom'
 import React from 'react'
 
 function App() { 
 
   return (
-    <>
-        
-        <Header />
-        <MainLayout>
-          <Carousel />
-          {/* <Hero /> */}
-        </MainLayout>
-        <Footer />
+    <>    
+      <Header />
+      <MainLayout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </MainLayout>
+      <Footer />
      
     </>
   )
