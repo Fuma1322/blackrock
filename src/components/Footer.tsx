@@ -26,7 +26,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="text-gray-500 bg-black px-4 py-8 mx-auto md:px-8">
+    <footer className="text-gray-700 px-4 py-8 mx-auto md:px-8">
       <div className="gap-4 justify-between md:flex">
         {/* Footer Navigation */}
         <div className="flex-1">
@@ -39,7 +39,7 @@ const Footer = () => {
         <div className="flex-1 mt-6 space-y-4 items-center justify-between  sm:flex md:space-y-0 md:mt-0">
           {footerNavs.map((item, idx) => (
             <ul className="space-y-4 text-md" key={idx}>
-              <h4 className="text-gray-200 font-medium">{item.label}</h4>
+              <h4 className="text-gray-900 font-medium">{item.label}</h4>
               {item.items.map((el, idx) => (
                 <li key={idx}>
                   {el.link ? (

@@ -1,8 +1,11 @@
 import React from 'react'
+import Team from './Team'
 
 export function About() {
   return (
-    <div>About Us</div>
+    <div>
+      <Team />
+    </div>
   )
 }
 

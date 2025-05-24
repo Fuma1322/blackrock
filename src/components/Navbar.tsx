@@ -18,7 +18,7 @@ const Navbar = () => {
           />
         </a>
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#800000] bg-[#0300145e] mr-[15px] px-[10px] py-[10px] rounded-full text-white">
+          <div className="flex items-center justify-between w-full h-auto border border-[#800000] mr-[15px] px-[10px] py-[10px] rounded-full text-gray-950">
             <a href="/menu" className="cursor-pointer hover:-translate-y-1 transition duration-400">
               Menu
             </a>

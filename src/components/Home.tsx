@@ -3,7 +3,9 @@ import Carousel from '../components/Carousel'
 
 const Home = () => (
   <>
-    <Carousel />
+    <div className="py-16">
+      <Carousel />
+    </div>
   </>
 )
 

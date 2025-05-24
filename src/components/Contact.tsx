@@ -7,7 +7,7 @@ import {Facebook, Twitter, Instagram, Phone} from 'lucide-react'
 
 export function Contact() {
   return (
-     <div className="min-h-screen bg-zinc-900 px-4 py-52 text-zinc-50">
+     <div className="min-h-screen bg-zinc-50 px-4 py-52 text-zinc-50">
       <motion.div
         initial="initial"
         animate="animate"
