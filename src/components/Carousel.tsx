@@ -4,21 +4,13 @@ import { motion } from "framer-motion";
 import React from "react";
 import { ImagesSlider } from "../components/ui/images-slider";
 import { FloatingDock } from "../components/ui/floating-dock";
-import {
-  IconBrandGithub,
-  IconBrandX,
-  IconExchange,
-  IconHome,
-  IconNewSection,
-  IconTerminal2,
-} from "@tabler/icons-react";
 import { SiFacebook, SiInstagram, SiLinkedin, SiWhatsapp, SiX } from "react-icons/si";
 
 export function Carousel() {
   const images = [
-    "bg.jpg",
-    "bg01.jpg",
-    "bg02.jpg",
+    "post4.jpg",
+    "post4.jpg",
+    "post4.jpg",
     "post4.jpg",
   ];
 

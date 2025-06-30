@@ -5,21 +5,21 @@ const Footer = () => {
     {
       label: "Company",
       items: [
-        { href: "javascript:void()", name: "Team", link: "/team-all" },
-        { href: "javascript:void()", name: "Career", link: "/careers" },
+        { href: "javascript:void()", name: "Team", link: "/about" },
+        { href: "javascript:void()", name: "Career", link: "#" },
       ],
     },
     {
       label: "Resources",
       items: [
         { href: "javascript:void()", name: "Contact", link: "/contact" }, 
-        { href: "javascript:void()", name: "Pricing", link: "/pricing" },
+        { href: "javascript:void()", name: "Pricing", link: "#" },
       ],
     },
     {
       label: "About",
       items: [
-        { href: "javascript:void()", name: "Terms", link: "/termsv" }, 
+        { href: "javascript:void()", name: "Terms", link: "#" }, 
         { href: "javascript:void()", name: "About Us", link: "/about" }, 
       ],
     },
