@@ -135,6 +135,7 @@ const SocialsBlock = () => (
       >
         <Phone className="text-4xl" />
         <span className="mt-2 text-lg font-medium">Call Us</span>
+        <span className="mt-2 text-sm font-medium">+266 63058243</span>
       </a>
     </Block>
   </>
